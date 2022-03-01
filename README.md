@@ -8,7 +8,7 @@
  ![Vercel](https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=61DAFB)
  ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB)
  ![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=61DAFB)
- ](https://github.com/rickalves/nextjs-crud)
+ ](https://github.com/rickalves/nextjs-crud#readme)
   
 ## Status / Info
 [
