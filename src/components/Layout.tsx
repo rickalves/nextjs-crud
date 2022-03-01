@@ -21,7 +21,7 @@ export default function Layout(props: LayoutProps){
             xl:col-span-8 xl:col-start-3
         `}>
             <Header { ...props}/>
-            <div className="p-2 lg:p-6 overflow-scroll lg:overflow-x-hidden">
+            <div className="p-2 lg:p-6 overflow-scroll lg:overflow-x-hidden justify-center">
                 {props.children}
             </div>
         </div>

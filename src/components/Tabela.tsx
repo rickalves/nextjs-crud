@@ -13,7 +13,8 @@ export default function Tabela(props: TabelaProps){
         return(
             <td className="py-1 lg:py-2 flex justify-center">
                 {props.estudanteSelecionado ? (
-                    <button onClick={() => props.estudanteSelecionado?.(estudante)} className={`
+                    <button onClick={() => props.estudanteSelecionado?.(estudante)} 
+                    className={`
                         p-2 rounded-full mx-1 bg-slate-300 
                         hover:bg-gradient-to-b from-cyan-500 to-blue-500
                       hover:text-white transition-all ease-in-out duration-500
@@ -22,7 +23,8 @@ export default function Tabela(props: TabelaProps){
                     </button>
                 ) : false}
                 {props.estudanteExcluido ? (
-                    <button onClick={() => props.estudanteExcluido?.(estudante)} className={`
+                    <button onClick={() => props.estudanteExcluido?.(estudante)} 
+                    className={`
                             p-2 rounded-full mx-1 bg-slate-300 
                             hover:bg-gradient-to-b from-cyan-500 to-blue-500
                             hover:text-white transition-all ease-in-out duration-400

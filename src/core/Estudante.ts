@@ -3,14 +3,14 @@ export default class Estudante {
     #nome: string
     #idade: number
 
-    constructor(nome: string, idade: number, matricula: string = null){
+    constructor(nome: string, idade: number, matricula: string = ''){
         this.#nome = nome
         this.#idade = idade
         this.#matricula = matricula
     }
 
-    static empty(){
-        return new Estudante('', 0, null)
+    static  empty(){
+        return new Estudante('', 0, '')
     }
      
     get matricula(){
